@@ -25,7 +25,7 @@ public class Main {
         System.out.println(Character.isUpperCase(texte.charAt(0)));
 
         // codez ici question 6 ( nombre d'occurences d'un mot )
-        Pattern patern = Pattern.compile("exemple");
+        Pattern patern = Pattern.compile("");
         Matcher matcher = patern.matcher(texte);
         boolean matchFound;
         int nbOccurence = 0;
